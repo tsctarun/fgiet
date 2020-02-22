@@ -9,6 +9,17 @@
 		margin:10px;
 		text-shadow:2px 2px 5px black,2px 2px 5px blue;
 	}
+	.tabl{
+		padding:15px;
+		background-color:#5f6769;
+		border-collapse:collapse;
+	}
+	#tab{
+		padding:15px;
+		background-color:transparent;
+		border:1px solid black;
+		border-collapse:collapse;
+	}
 	.mydiv{
 		width:"100%";
 		height:150px;
@@ -64,3 +75,52 @@
 	     body{
 	     	background-color:transparent;
 	         }
+	         .drop{
+	         	background-color:#5f6769;
+	         	color:black;
+	         	padding:15px;
+	         	border:none;
+	         	font-size:10px;
+	         	position:relative;
+	         	display:inline;
+	         }
+	         .dropdown{
+	         	background-color:#5f6769;
+	         	color:white;
+	         	font-size:11px;
+	         	width:120px;
+	         	height:40px;
+	         	margin:auto;
+	         	padding:0;
+	         	border:1px;
+	         }
+	         .drop-content{
+	         	display:none;
+	         	position:absolute;
+	         	background-color:#5f6769;
+	         	font-size:10px;
+	         	z-index:1;
+	         }
+	         .drop-content a{
+	         	color:white;
+	         	margin:auto;
+	         	padding:8px 5px;
+	         	display:block;
+	         	font-size:16px;
+	         	width:100%;
+	         }
+	         .drop-content a:hover{
+	         	background-color:#8186d5;
+	         	font-size:18px;
+	         }
+	         .drop:hover .drop-content{
+	         	display:block;
+	         	font-size:16px;
+
+	         }
+	         .drop:hover .dropdown{
+	         	background-color:black;
+
+	         }
+
+	     
